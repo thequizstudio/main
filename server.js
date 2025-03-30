@@ -29,7 +29,7 @@ io.on('connection', (socket) => {
 });
 
 // Set up the server to listen on the correct port (use Render's PORT environment variable)
-const port = process.env.PORT || 3000; // Use environment variable on cloud platforms or fallback to 3000 locally
+const port = process.env.PORT || 10000; // Use environment variable on cloud platforms or fallback to 3000 locally
 server.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
