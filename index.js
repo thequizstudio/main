@@ -1,3 +1,7 @@
+if (typeof document !== 'undefined') {
+  document.querySelector('element').textContent = "Hello!";
+}
+
 // Get references to the DOM elements
 const sendButton = document.getElementById('send-button');
 const messageInput = document.getElementById('message-input');
